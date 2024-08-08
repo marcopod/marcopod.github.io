@@ -4,45 +4,34 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background: #f4f4f4;
-    color: #333;
+    background: #111111;
+    color: #D9D9D9; 
+    padding: 2rem;
 }
 
-header {
-    background: #333;
-    color: #fff;
-    padding: 10px 20px;
-    text-align: center;
+#links {
+    color: #C4C4C4;
+    list-style-type: none;
+}
+/* Remove dots from unordered lists */
+ul {
+    list-style-type: none; /* Removes bullet points */
 }
 
-header nav ul {
-    list-style: none;
-    padding: 0;
+a {
+    color: #C4C4C4; /* Change this to your desired color */
+    text-decoration: none; /* Optional: removes underline from links */
 }
 
-header nav ul li {
-    display: inline;
-    margin-right: 10px;
+/* Color when hovering over the anchor tag */
+a:hover {
+    color: #e74c3c; /* Change this to your desired hover color */
 }
 
-header nav ul li a {
-    color: #fff;
-    text-decoration: none;
+#about {
+    color: #CACACA
 }
 
-section {
-    padding: 20px;
-    margin: 0 10px;
-    background: white;
-    border: 1px solid #ddd;
-}
-
-footer {
-    text-align: center;
-    padding: 10px 0;
-    background: #333;
-    color: white;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
+#contact {
+    color: #FFF
 }
